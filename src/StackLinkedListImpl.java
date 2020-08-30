@@ -17,4 +17,5 @@ public class StackLinkedListImpl {
         return stack.getLast();
     }
 
+
 }

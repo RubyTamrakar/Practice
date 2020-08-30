@@ -1,3 +1,6 @@
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class Main {
     public static void main(String[] args) {
 //        StackImpl stack = new StackImpl(6);
@@ -25,5 +28,7 @@ public class Main {
 
         System.out.println(sl.pop());
         System.out.println(sl.peek());
+
+        Queue q = new ArrayDeque();
     }
 }
