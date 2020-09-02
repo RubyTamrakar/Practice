@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Main {
     public static void main(String[] args) {
 //QueueArrayImpl queue = new QueueArrayImpl(2);
@@ -22,7 +24,6 @@ public class Main {
         System.out.println(ql.dequeue());
         System.out.println(ql.peek());
         System.out.println(ql.search(25));
-
 
 
     }
